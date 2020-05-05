@@ -24,7 +24,7 @@ def iss():
 
 	# Query gmaps Places API to pin point ISS location
  	# in resepct to earth
-	gapikey = 'AIzaSyBNbZUIqfY1JvEkWNNMIRS3xRBIyKfJiWQ'
+	gapikey = '.....'
 	gmaps = googlemaps.Client(key=gapikey)
 	re = gmaps.places(isslat + ', ' + isslong)
 
